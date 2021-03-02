@@ -9,6 +9,7 @@
     box-sizing: border-box;
     overflow: hidden; /* Hide scrollbars */
 }
+
 /*Mobile screen and tablet potrait screen*/
 @media screen and (min-width: 100px) and (max-width: 768px){
     .background, #pink-line {display: none;}
@@ -84,19 +85,23 @@
    }
 }
 
+
+
 /*Big screen and tablet landscape screen*/
-@media screen and (min-width: 768.1px){
+ @media screen and (min-width: 768.1px){
+    .hamburger-icon {display: none;}
+    .mobile-background {display: none;}
     #mini-logo {
     position: absolute;
     height: 100px;
 }
 nav {position: absolute;}
-nav ul {
+nav  ul {
     padding: 0px;
     margin-top: 3vh;
     font-size: medium;
 }
-nav li {
+nav  li {
     display: inline;
     margin-left: 5.5vw;
     padding: 20px;
@@ -106,7 +111,7 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-nav a:hover{color: #F38581;}
+nav  a:hover{color: #F38581;}
 
 article {
     position: absolute;
@@ -132,25 +137,25 @@ h2 {
     margin-left: 60vw;
     height: 400px;
 }
-section{
+.second-nav{
     position: absolute;
     margin-top: 75vh;
     margin-left: 5vw;
 }
-section li {
+.second-nav li {
     display: inline;
     padding: 60px;
 }
-section a {
+.second-nav a {
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-section a:hover{color: red;}
+.second-nav a:hover{color: red;}
 .background {
     margin-top: -107px;
 }
-p {
+.copyright {
     position: absolute;
     margin-top: 96vh;
     margin-left: 40%;
