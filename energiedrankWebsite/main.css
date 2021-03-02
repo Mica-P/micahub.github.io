@@ -16,61 +16,62 @@
     #mini-logo {
         position: absolute;
         height: 7rem;
-        margin-left: 35%;
+        margin-left: 30%;
     }
    .hamburger-icon {
-       position: absolute;  
+        position: absolute; 
        margin-top: 15px;
        margin-left: 80%;
        font-size: 3rem;
-       color: white;
+       color: white;  
     }
-    .first-nav {
+    .first-nav { 
         background-color: #FFCB78;
         height: 700px;
         text-align: center;
-        padding: 50px;
+        padding: 50px;  
     }.first-nav li {
         margin-top: 10vh;
-        line-height: 10px;
+        line-height: 10px; 
     }
     .first-nav a {
         font-size: 1rem;
         font-family: 'Montserrat', sans-serif;
-        color: white;
+        color: white; 
     }
     #orange-can {
         position: absolute;
         height: 200px;
         margin-top: 110px;
-        margin-left: 50px;
+        margin-left: 80px;  
     }
     main {font-family: 'Oswald', sans-serif;}
+
     h1 {
         position: absolute;
         margin-top: 44vh;
         margin-left: 10%;
-        font-size: 3rem;
-        color: white;
+        font-size: 2.5rem;
+        color: white;  
     }
     h2 {
         position: absolute;
-        margin-top: 51vh;
+        margin-top: 50vh;
         margin-left: 20%;
-        font-size: 2.5rem;
-        color: #FFCB78;
+        font-size: 2.2rem;
+        color: #FFCB78; 
     }
     .second-nav {
         position: absolute;
         text-align: center;
-        margin-top: 62vh;
+        margin-top: 60vh; 
     }
     .second-nav a {
         font-size: 1.3rem;
         line-height: 50px;
         font-family: 'Montserrat', sans-serif;
         color: white;
-        margin-left: 25vw;
+        margin-left: 25vw; 
     }
     .copyright {
         position: absolute;
@@ -80,33 +81,33 @@
     }
     .mobile-background {
        height: 750px;
-       width: 100%;
+       width: 100%; 
    }
 }
 
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 768.1px){
+    .mobile-background, .hamburger-content, .hamburger-icon{display: none;}
     #mini-logo {
     position: absolute;
     height: 100px;
 }
-nav {position: absolute;}
-nav ul {
-    padding: 0px;
+.first-nav{position: absolute;}
+.first-nav {
     margin-top: 3vh;
     font-size: medium;
 }
-nav li {
+.first-nav li {
     display: inline;
-    margin-left: 5.5vw;
+    margin-left: 5vw;
     padding: 20px;
 }
-nav a {
+.first-nav a{
     font-size: larger;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-nav a:hover{color: #F38581;}
+.first-nav a:hover{color: #F38581;}
 
 article {
     position: absolute;
