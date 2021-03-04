@@ -12,7 +12,8 @@
 /*Mobile screen and tablet potrait screen*/
 @media screen and (min-width: 100px) and (max-width: 768px){
     .background, #pink-line, .bigscreen-content {display: none;}
-    li, .hamburger-icon {cursor: pointer;}
+    details summary::-webkit-details-marker {display:none;}
+    .hamburger-icon {cursor: pointer;}
     #mini-logo {
         position: absolute;
         height: 7rem;
@@ -83,6 +84,7 @@
        height: 750px;
        width: 100%; 
    }
+   
 }
 
 /*Big screen and tablet landscape screen*/
