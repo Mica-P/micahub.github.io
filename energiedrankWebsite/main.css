@@ -149,16 +149,19 @@ section a {
 }
 section a:hover{color: red;}
 .background {
-    margin-top: -107px;
+    height: 113vh;
+    margin-top: -99px;
 }
 p {
     position: absolute;
-    margin-top: 96vh;
+    margin-top: 97vh;
     margin-left: 40%;
     color: white;
 }
 #pink-line {
-    position: absolute;
-    margin-top: 18vh;
+    display: none;
+}
+body {
+    background-color: #F7BAAE;
 }
 }
