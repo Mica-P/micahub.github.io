@@ -65,11 +65,18 @@
         font-family: 'Montserrat', sans-serif;
         color: white;
     }
-   
+    .copyright{
+        position: absolute;
+        margin-top: 96vh;
+        margin-left: 10vw;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8rem;
+        color: #F38581;
+    }
 }
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
-   .mobile-nav, .mobile-background, summary{display: none;}
+   .mobile-nav, .mobile-background, summary, .copyright{display: none;}
    .logo {
        position: absolute;
        height: 100px;
