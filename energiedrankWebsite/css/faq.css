@@ -14,7 +14,7 @@
 /*mobile */
 @media screen and (min-width: 100px) and (max-width:768px){
     .bigscreen-nav, .website-background{display: none;}
-    details summary::-webkit-details-marker {display:none;}
+    .hamburger-icon::-webkit-details-marker {display:none;}
     .hamburger-icon {cursor: pointer;}
     .mobile-background {
         height: 100vh;
@@ -28,7 +28,7 @@
        height: 100px;
        z-index: 1;
    }
-   summary {
+   .hamburger-icon {
        display: flex;
        margin-top: 2vh;
        margin-left: 80vw;
@@ -36,7 +36,7 @@
        font-size: 3rem;
        color: white;
    }
-   details {
+   .details1 {
        position: absolute;
        margin-top: 0vh;
        height: 100%;
@@ -69,11 +69,23 @@
         height: 50vh;
         width: 100vw;
     }
-   
+    .question1{
+        position: absolute;
+       /*  display: flex;
+        justify-content: center;
+        margin-top: 25vh;
+        font-size: .9rem;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        height: 50vh;
+        width: 100vw;
+        border: 1px solid red; */
+    }
 }
 /*Big screen and tablet landscape screen*/
 @media screen and (min-width: 769px){
-   .mobile-nav, .mobile-background, summary{display: none;}
+   .mobile-nav, .mobile-background, .hamburger-icon{display: none;}
    .logo {
        position: absolute;
        height: 100px;
@@ -110,15 +122,37 @@
     height: 50vh;
     width: 100vw;
 }
-
-
-
-
-
-
-
-
-
+.faq-container {font-family: 'Montserrat', sans-serif;}
+.question1, .question2 { text-shadow: 2px 2px white; font-size: 1.5rem;}
+.answered1, .answered2 { color: white; padding: 10px; font-size: 1rem;}
+.faq1{
+    position: absolute;
+    margin-top: 20vh;
+    width: 100vw;
+    text-align: center;
+    color: #F38581;
+      
 }
-
+.faq2{
+    position: absolute;
+    margin-top: 32vh;
+    width: 100vw;
+    text-align: center;
+    color: #F38581;
+}
+.faq3{
+    position: absolute;
+    margin-top: 42vh;
+    width: 100vw;
+    text-align: center;
+    color: #F38581;
+}
+.faq4{
+    position: absolute;
+    margin-top: 52vh;
+    width: 100vw;
+    text-align: center;
+    color: #ca483e;
+}
+}
 
