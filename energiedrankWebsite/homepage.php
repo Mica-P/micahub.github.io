@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  hoi
   <header><img id="mini-logo" src="./images/mini-logo.gif" alt=""></header>
   <details class="mobile-content">
     <summary class="hamburger-icon">&#9776;</summary>
@@ -42,6 +43,24 @@
       </ul>
     </nav>
   </div>
+  <?php
+    //stap 1
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "phples";
+    $conn = new mysqli($servername, $username, $password, $database);
+    if ($conn->connect_error){
+        die("Connection failed ". $conn-connect_error);
+    }
+    $sql = "SELECT * FROM gebruikers";
+    if ($result = $conn->query($sql)){
+        while($row = $result->fetch_array(MYSQLI_BOTH)){
+            echo $row['id']. "  ".$row[1]."  ".$row['password']. "<br>"; 
+        }
+        $result->close();
+    }
+    ?>
   <main>
     <article>
       <h1>ENERGY DRANK</h1>

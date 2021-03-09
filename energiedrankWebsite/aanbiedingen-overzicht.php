@@ -8,8 +8,8 @@
   <meta name="keywords" content="Vitality, energiedrank, website">
   <meta name="author" content="Mica Paulo, Sijme Heemskerk, Mike van Duyvenbode, Dinand Dummer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Evenementen overzicht</title>
-  <link rel="stylesheet" type="text/css" href="./css/evenementen-overzicht.css">
+  <title>Aanbiedingen Details</title>
+  <link rel="stylesheet" type="text/css" href="./css/aanbiedingen-overzicht.css">
 </head>
 
 <body>
@@ -18,33 +18,32 @@
     <summary class="hamburger-icon">&#9776;</summary>
     <nav class="mobile-nav">
       <ul>
-        <li><a href="homepage.html">Homepage</a></li>
-        <li><a href="Evenementen-overzicht.html">Events</a></li>
-        <li><a href="artiesten-overzicht.html">Artiesten</a></li>
-        <li><a href="producten.html">Producten</a></li>
-        <li><a href="aanbiedingen-overzicht.html">Aanbiedingen</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="overons.html">Over Ons</a></li>
+      <li><a href="homepage.php">Homepage</a></li>
+                <li><a href="Evenementen-overzicht.php">Events</a></li>
+                <li><a href="artiesten-overzicht.php">Artiesten</a></li>
+                <li><a href="producten.php">Producten</a></li>
+                <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="overons.php">Over Ons</a></li>
       </ul>
     </nav>
   </details>
   <nav class="bigscreen-nav">
     <ul>
-      <li><a href="homepage.html">Homepage</a></li>
-      <li><a href="Evenementen-overzicht.html">Events</a></li>
-      <li><a href="artiesten-overzicht.html">Artiesten</a></li>
-      <li><a href="producten.html">Producten</a></li>
-      <li><a href="aanbiedingen-overzicht.html">Aanbiedingen</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="overons.html">Over Ons</a></li>
+    <li><a href="homepage.php">Homepage</a></li>
+                <li><a href="Evenementen-overzicht.php">Events</a></li>
+                <li><a href="artiesten-overzicht.php">Artiesten</a></li>
+                <li><a href="producten.php">Producten</a></li>
+                <li><a href="aanbiedingen-overzicht.php">Aanbiedingen</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="overons.php">Over Ons</a></li>
     </ul>
   </nav>
   <section class="title-image-container">
-    <h1>Evenementen overzicht</h1>
+    <h1>Aanbiedingen overzicht</h1>
   </section>
-
 
 
 
