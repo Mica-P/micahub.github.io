@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="nl" dir="ltr">
 
@@ -42,8 +44,61 @@
     </ul>
   </nav>
   <section class="title-image-container">
-    <h1>Artiesten overzicht</h1>
+    <h1>Wie komen er allemaal</h1>
   </section>
+
+  <section class="artiesten1">
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "energy";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$artiesten = "SELECT naam FROM artiesten";
+if ($result = $conn->query($artiesten)) {
+  while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+    echo "$artiesten"
+  }
+}
+?>
+  </section>
+
+  <section class="artiesten2">
+
+  <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "energy";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+
+$sql = "SELECT naam FROM artiesten";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+  // output data of each row
+  while($row = mysqli_fetch_assoc($result)) {
+    echo " . $row["naam"]. ""<br>";
+  }
+}
+
+
+?>
+  </section>
+
+
 
 
 
